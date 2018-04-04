@@ -39,8 +39,8 @@ namespace MyAgeIsPrivate
             Console.WriteLine("Let's create some Person objects. . .");
             Console.WriteLine("Give me a name:");
             string name = Console.ReadLine();
-            Person person = new Person(name)
-                ;
+            //Create person object
+            Person person = new Person(name);
             //Change the privately accessed variable
             Console.WriteLine("Give me an age to change:");
             int age = Convert.ToInt32(Console.ReadLine());
